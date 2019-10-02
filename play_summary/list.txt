@@ -1,0 +1,8 @@
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/0_6_1.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/1_29_1.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/2_41_0.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/3_84_3.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/4_94_1.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/5_112_1.mp4
+file /movie-drive/created_summaries/tvsum/segments/-esJrBWj2d8/6_189_3.mp4
+        f = open("list.txt", "w+")

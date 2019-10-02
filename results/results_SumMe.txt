@@ -1,0 +1,13 @@
+{'0': {'precision': 0.9990087411011985, 'recall': 0.9801945181255526, 'f1-score': 0.9895122060070514, 'support': 11310}, '1': {'precision': 0.8684674104521433, 'recall': 0.9926174496644296, 'f1-score': 0.9264015032884434, 'support': 1490}, 'accuracy': 0.981640625, 'macro avg': {'precision': 0.9337380757766709, 'recall': 0.986405983894991, 'f1-score': 0.9579568546477474, 'support': 12800}, 'weighted avg': {'precision': 0.983812914330332, 'recall': 0.981640625, 'f1-score': 0.9821657257687134, 'support': 12800}}
+tn: 11086, fp: 224, fn: 11, tp: 1479
+{'0': {'precision': 0.8852843110750653, 'recall': 0.8686118479221927, 'f1-score': 0.8768688356317221, 'support': 11310}, '1': {'precision': 0.12742219612448621, 'recall': 0.14563758389261744, 'f1-score': 0.1359223300970874, 'support': 1490}, 'accuracy': 0.784453125, 'macro avg': {'precision': 0.5063532535997758, 'recall': 0.507124715907405, 'f1-score': 0.5063955828644048, 'support': 12800}, 'weighted avg': {'precision': 0.7970644242565996, 'recall': 0.784453125, 'f1-score': 0.7906180314718312, 'support': 12800}}
+tn: 9824, fp: 1486, fn: 1273, tp: 217
+Confusion matrix, summe
+[[11086   224]
+ [   11  1479]]
+KendalltauResult(correlation=0.9186355000779619, pvalue=0.0)
+KendalltauResult(correlation=0.004131518295149922, pvalue=0.6402068002784568)
+mean distances predicted and true trailer:  0.001034675615212528
+mean distances not predicted and true trailer:  0.29973900074571214
+mean distances predicted and true trailer:  0.11554809843400447
+mean distances not predicted and true trailer:  0.005546234153616704

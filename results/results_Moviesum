@@ -1,0 +1,30 @@
+ssh://emma@52.142.213.14:22/home/emma/miniconda3/envs/I3D-eval/bin/python -u /home/emma/summary_evaluation/score_evaluators/evaluate_summaries.py
+{'0': {'precision': 0.966039972899729, 'recall': 0.9228217781732869, 'f1-score': 0.9439364475154123, 'support': 12361}, '1': {'precision': 0.038306451612903226, 'recall': 0.08656036446469248, 'f1-score': 0.053109713487071976, 'support': 439}, 'accuracy': 0.894140625, 'macro avg': {'precision': 0.5021732122563161, 'recall': 0.5046910713189897, 'f1-score': 0.4985230805012421, 'support': 12800}, 'weighted avg': {'precision': 0.9342216122868449, 'recall': 0.894140625, 'f1-score': 0.9133838743717841, 'support': 12800}}
+tn: 11407, fp: 954, fn: 401, tp: 38
+{'0': {'precision': 0.9649390243902439, 'recall': 0.9217700833265917, 'f1-score': 0.942860689312756, 'support': 12361}, '1': {'precision': 0.025201612903225805, 'recall': 0.05694760820045558, 'f1-score': 0.034940600978336823, 'support': 439}, 'accuracy': 0.892109375, 'macro avg': {'precision': 0.49507031864673484, 'recall': 0.4893588457635236, 'f1-score': 0.48890064514554643, 'support': 12800}, 'weighted avg': {'precision': 0.9327089678556502, 'recall': 0.892109375, 'f1-score': 0.9117218675331614, 'support': 12800}}
+tn: 11394, fp: 967, fn: 414, tp: 25
+Confusion matrix, moviesum
+[[11407   954]
+ [  401    38]]
+KendalltauResult(correlation=0.006385826081465558, pvalue=0.47002060541803226)
+KendalltauResult(correlation=0.0047803386945477555, pvalue=0.588636854793118)
+mean distances predicted and true trailer:  0.2927739812705644
+mean distances not predicted and true trailer:  0.016894457099468487
+mean distances predicted and true trailer:  0.2675588458618071
+mean distances not predicted and true trailer:  0.010408757276638826
+
+Process finished with exit code 0
+
+{'0': {'precision': 0.9612896705073782, 'recall': 0.9281439073580119, 'f1-score': 0.944426055871839, 'support': 61484},
+'1': {'precision': 0.04702329594477998, 'recall': 0.08664546899841018, 'f1-score': 0.06096196868008949, 'support': 2516},
+'accuracy': 0.8950625, 'macro avg': {'precision': 0.5041564832260791, 'recall': 0.507394688178211, 'f1-score': 0.5026940122759642, 'support': 64000},
+'weighted avg': {'precision': 0.9253475736573861, 'recall': 0.8950625, 'f1-score': 0.9096948739441134, 'support': 64000}}
+tn: 57066, fp: 4418, fn: 2298, tp: 218
+{'0': {'precision': 0.9608853850818678, 'recall': 0.9277535619022835, 'f1-score': 0.9440288627035615, 'support': 61484},
+'1': {'precision': 0.04184641932700604, 'recall': 0.07710651828298887, 'f1-score': 0.05425055928411633, 'support': 2516},
+ 'accuracy': 0.8943125, 'macro avg': {'precision': 0.5013659022044369, 'recall': 0.5024300400926363, 'f1-score': 0.4991397109938389, 'support': 64000},
+ 'weighted avg': {'precision': 0.9247556657406297, 'recall': 0.8943125, 'f1-score': 0.9090494531503845, 'support': 64000}}
+tn: 57042, fp: 4442, fn: 2322, tp: 194
+Confusion matrix, moviesum
+KendalltauResult(correlation=0.011087993032973902, pvalue=0.00503098522290787)
+KendalltauResult(correlation=-0.0069023026096975285, pvalue=0.08078556000376338)

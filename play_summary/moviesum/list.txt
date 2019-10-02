@@ -1,0 +1,4 @@
+file /movie-drive/created_summaries/summe/segments/Valparaiso_Downhill/0_11_4.mp4
+file /movie-drive/created_summaries/summe/segments/Valparaiso_Downhill/1_39_1.mp4
+file /movie-drive/created_summaries/summe/segments/Valparaiso_Downhill/2_66_2.mp4
+file /movie-drive/created_summaries/summe/segments/Valparaiso_Downhill/3_89_2.mp4
